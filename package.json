@@ -1,0 +1,25 @@
+{
+  "name": "vue3-0ssr",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node ./node_modules/vite-ssr/cli.js --port 3000 --force",
+    "dev:spa": "vite --port 3000 --force",
+    "build": "node ./node_modules/vite-ssr/cli.js build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.2.6",
+    "@vueuse/head": "^0.6.0",
+    "axios": "^0.22.0",
+    "express": "^4.17.1",
+    "vite-ssr": "^0.13.0",
+    "vue": "^3.2.6",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.5.1"
+  }
+}
