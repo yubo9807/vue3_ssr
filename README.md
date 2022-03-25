@@ -1,20 +1,22 @@
 # 使用
 ## 安装
 ```shell
-yarn
+npm install
 ```
 ## 运行
-```js
-yarn dev  //开发模式运行
-yarn build //打包
-
+```shell
+npm run dev  # 开发模式运行
+npm run build  # 打包
 ```
 
 # 目录结构
-* dist 打包目录
-* server.js 打包后的node express 运行脚本【build后使用这个进行部署
+
+- dist 打包目录
+- server.js 打包后的node express 运行脚本【build后使用这个进行部署
 > 剩余的目录结构内容与 vue 没什莫大的区别
+
 ## 使用插件
+
 ```json
  "dependencies": {
     "@vue/server-renderer": "^3.2.6",
@@ -32,4 +34,4 @@ yarn build //打包
   }
 ```
 
-# 国外大佬 https://github.com/frandiox
+- https://github.com/frandiox
